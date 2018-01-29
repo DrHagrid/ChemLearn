@@ -1,0 +1,45 @@
+body {
+    background: url(bg.png);
+}
+
+.main-container {
+    width: 95%;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.pic {
+    margin-left: 12.5%;
+}
+
+.box {
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 75%;
+    margin: 0 auto 100px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16pt;
+}
+
+.alert-box {
+
+}
+
+form {
+    white-space:nowrap;
+}
+
+.ans-btn {
+    min-width: 120px;
+    margin-top: 10px;
+}
+
+.register {
+    text-align: left;
+    margin-left: 5%;
+}
