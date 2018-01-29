@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class UserInfo(models.Model):
-    user = models.ForeignKey(User, verbose_name='Пользователь')
+    user = models.ForeignKey(User, verbose_name='Пользователь', on_delete=models.DO_NOTHING)
     last_reaction = models.IntegerField(verbose_name='Номер последней реакции')
 
     def __str__(self):

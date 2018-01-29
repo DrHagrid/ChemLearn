@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2183da-d593-4a12-a88a-e420fcf1f48e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ChemLearn.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChemLearn/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChemLearn/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChemLearn/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChemLearn/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/migrations/0002_difficultylevel_variable.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/migrations/0003_auto_20180124_1817.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactions/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/error_end-of-reactions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/error_other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/reaction_test_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/start_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/models.py" afterPath="$PROJECT_DIR$/users/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,7 +39,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="255">
               <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
@@ -96,17 +52,27 @@
         <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="50" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="50" />
+              <caret line="18" column="50" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/registration/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -146,7 +112,6 @@
         <option value="$PROJECT_DIR$/reactions/models.py" />
         <option value="$PROJECT_DIR$/users.py" />
         <option value="$PROJECT_DIR$/users/urls.py" />
-        <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/users/admin.py" />
         <option value="$PROJECT_DIR$/static/script.js" />
         <option value="$PROJECT_DIR$/reactions/views.py" />
@@ -166,6 +131,7 @@
         <option value="$PROJECT_DIR$/users/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/registration/register.html" />
+        <option value="$PROJECT_DIR$/users/models.py" />
       </list>
     </option>
   </component>
@@ -196,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -321,7 +287,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27912623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28398058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -540,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -635,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="255">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
@@ -646,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="50" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -654,7 +613,15 @@
     <entry file="file://$PROJECT_DIR$/templates/registration/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
