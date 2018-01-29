@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="alert-box">
+        <div class="alert alert-warning" role="alert">
+            Оба-ёба! А ну реши мне эту реакцию. Сможешь?
+        </div>
+    </div>
+    <div class="">
+        <form id="check-answer" class="form-inline" action="{% url 'check_answer' %}">{% csrf_token %}
+            {% autoescape off %}
+            {{ reaction.materials_trans }} →
+            {% endautoescape %}
+            <div class="form-group answer-box">
+                <input class="form-control" id="answer">
+            </div>
+            <br>
+            <div class="form-group button-box">
+                <button class="btn btn-success ans-btn" id="submit_btn" data-action="submit" data-reaction_id="{{ reaction.id }}">
+                    Проверить
+                </button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

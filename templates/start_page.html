@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <div class="alert-box">
+            <div class="alert alert-warning" role="alert">
+                {% if created %}
+                    Привет, {{ user.username }}! Ты тут первый раз, нажми на кнопку чтобы приступить к решению.
+                {% else %}
+                    Привет, {{ user.username }}! Ты можешь продолжить с реакции на которой ты остановился.
+                {% endif %}
+            </div>
+        </div>
+        <div class="">
+            <form id="check-answer" class="form-inline" action="{% url 'check_answer' %}">{% csrf_token %}
+                <div class="form-group button-box">
+                    <button class="btn btn-success ans-btn" id="submit_btn" data-action="next" data-reaction_id="{{ last_reaction }}">
+                        {% if created %}
+                            Начать
+                        {% else %}
+                            Продолжить
+                        {% endif %}
+                    </button>
+                </div>
+            </form>
+        </div>
+    {% else %}
+        <div class="alert-box">
+            <div class="alert alert-warning" role="alert">
+                Привет, ты должен войти или зарегистрироваться!
+            </div>
+        </div>
+        <form action="/accounts/login"><button class="btn btn-success ans-btn" type="submit">Вход</button></form>
+        <form action="/accounts/register"><button class="btn btn-success ans-btn" type="submit">Регистрация</button></form>
+    {% endif %}
+{% endblock %}
