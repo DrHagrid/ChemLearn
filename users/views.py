@@ -5,7 +5,7 @@ from .models import UserInfo
 
 
 def distribution(request):
-    if not request.user.is_anonymous():
+    if not request.user.is_anonymous:
         user_info, created = UserInfo.objects.get_or_create(user=request.user, defaults={'last_reaction': 1})
         last_reaction = user_info.last_reaction
     return render(request, 'start_page.html', locals())
