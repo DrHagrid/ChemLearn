@@ -36,7 +36,7 @@ class Reaction(models.Model):
     materials = models.CharField(max_length=256)
     products = models.CharField(max_length=256)
     conditions = models.CharField(max_length=128, blank=True, null=True)
-    difficulty = models.ForeignKey(DifficultyLevel)
+    difficulty = models.ForeignKey(DifficultyLevel, on_delete=models.DO_NOTHING)
     is_active = models.BooleanField(default=True)
 
     materials_trans = models.CharField(max_length=256, blank=True, null=True, default=None)
