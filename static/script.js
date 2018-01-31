@@ -20,16 +20,17 @@ $(document).ready(function () {
             data:data,
             cache:true,
             success: function(data){
+                console.log(data.replica_success);
                 $('.alert-box').html("");
                 if (data.response){
-                    $('.alert-box').append('<div class="alert alert-success" role="alert">Верно! Откуда ты это знаешь, жук?</div>');
+                    $('.alert-box').append('<div class="alert alert-success" role="alert">' + data.replica_success + '</div>');
                     $('.answer-box').html("");
                     $('.answer-box').append(data.products_trans);
                     $('.button-box').html("");
                     $('.button-box').append('<button class="btn btn-success ans-btn" id="submit_btn" data-action="next" data-reaction_id="' + data.next_reaction_id +'">Продолжить</button>');
                 }
                 else {
-                    $('.alert-box').append('<div class="alert alert-danger" role="alert">Ну ты и простофиля! Попробуй ещё...</div>');
+                    $('.alert-box').append('<div class="alert alert-danger" role="alert">' + data.replica_fail + '</div>');
                 }
             },
             error: function(){
